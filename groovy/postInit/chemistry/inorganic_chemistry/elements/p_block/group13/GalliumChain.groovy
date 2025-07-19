@@ -62,6 +62,7 @@ DT.recipeBuilder()
 .buildAndRegister()
 
 // Small Pile of Mercury II Chloride Dust * 1
+//consolidating this into the main removal file throws errors  -Sinnzy
 mods.gregtech.distillery.removeByInput(30, [metaitem('circuit.integrated').withNbt(["Configuration": 1])], [fluid('crude_gallium_trichloride') * 432])
 
 BATCH_REACTOR.recipeBuilder()

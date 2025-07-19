@@ -410,8 +410,6 @@ mods.gregtech.blender.removeByInput(1920, [metaitem('crushedSapphire') * 2], [fl
 // Green Sapphire Slurry * 3000
 mods.gregtech.mixer.removeByInput(1920, [metaitem('crushedGreenSapphire') * 2], [fluid('aqua_regia') * 3000])
 mods.gregtech.blender.removeByInput(1920, [metaitem('crushedGreenSapphire') * 2], [fluid('aqua_regia') * 3000])
-// Small Pile of Mercury II Chloride Dust * 1
-mods.gregtech.distillery.removeByInput(30, [metaitem('circuit.integrated').withNbt(["Configuration": 1])], [fluid('crude_gallium_trichloride') * 432])
 //GALLIUM ARSENIDE PRODUCTION (LIQUID ENCAPSULATED CZOCHIRALSKI PROCESS)
 mods.gregtech.mixer.removeByInput(7, [metaitem('dustGallium'), metaitem('dustArsenic'), metaitem('circuit.integrated').withNbt(["Configuration": 1])], null)
 mods.gregtech.blender.removeByInput(7, [metaitem('dustGallium'), metaitem('dustArsenic'), metaitem('circuit.integrated').withNbt(["Configuration": 1])], null)
